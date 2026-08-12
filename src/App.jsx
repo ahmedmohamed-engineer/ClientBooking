@@ -6,7 +6,7 @@ import AllHotels from './pages/AllHotels';
 import RoomDetails from './pages/RoomDetails';
 import MyBooking from './pages/MyBooking';
 import Layout from './pages/dashboardHotel/Layout';
-import Dashboard from './pages/dashboardHotel/dashboard';
+import Dashboard from './pages/dashboardHotel/Dashboard';
 import AddHotel from './pages/dashboardHotel/AddHotel';
 import HotelList from './pages/dashboardHotel/HotelList';
 

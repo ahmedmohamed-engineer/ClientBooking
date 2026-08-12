@@ -140,7 +140,7 @@ function AddHotel() {
       {Object.keys(inputData.amenities).map((amenty, index)=>(
         <div key={index}>
           <input type="checkbox" id={`amenities${index+1}`}checked={inputData.amenities[amenty]}
-          onChange={(e)=>setInputData({...inputData, amenities:{...inputData.amenities,
+          onChange={() => setInputData({...inputData, amenities:{...inputData.amenities,
             [amenty]: !inputData.amenities[amenty]
           }})} />
           <label htmlFor={`amenities${index+1}`} className='ml-2 cursor-pointer'>{amenty}</label>
